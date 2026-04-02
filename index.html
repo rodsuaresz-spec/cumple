@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Diana con Amor</title>
+    <link rel="stylesheet" href="dynamic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="hearts-container"></div>
+
+    <header class="hero-animated">
+        <div class="hero-overlay">
+            <h1 class="reveal-text">Para mi Diana</h1>
+            <p class="reveal-text-slow">Un regalo de cumpleaños inolvidable.</p>
+            <button id="start-btn" class="glow-btn">Haz clic para empezar</button>
+        </div>
+    </header>
+
+    <main id="content" class="hidden">
+        <section class="section letter-section" id="bday-letter-section">
+            <h2>Feliz Cumpleaños, Mi Vida</h2>
+            <div class="typewriter-container" id="typewriter-bday">
+                <!-- Text will be typed here by JS -->
+            </div>
+        </section>
+
+        <!-- <section class="section collage-section" id="gallery">
+            <h2>Nuestra Historia en Fotos</h2>
+            <div class="collage-grid-dynamic">
+                <div class="collage-card" style="--delay: 1"><img src="images/1.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 2"><img src="images/2.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 3"><img src="images/3.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 4"><img src="images/4.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 5"><img src="images/5.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 6"><img src="images/6.jpeg" alt=""></div>
+                <div class="collage-card" style="--delay: 7"><img src="images/7.jpeg" alt=""></div>
+            </div>
+        </section> -->
+
+        <section class="section love-envelope-section">
+            <h2>Una Sorpresa para Ti</h2>
+            <div class="envelope-wrapper">
+                <div id="envelope" class="close">
+                    <div class="front flap"></div>
+                    <div class="front pocket"></div>
+                    <div class="letter">
+                        <div class="words line1">Eres lo mejor</div>
+                        <div class="words line2">que me ha pasado</div>
+                        <div class="words line3">Te Amo, Diana</div>
+                    </div>
+                    <div class="hearts">
+                        <div class="heart a1"></div>
+                        <div class="heart a2"></div>
+                        <div class="heart a3"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="click-instruction">Haz clic en el sobre para abrirlo</p>
+        </section>
+
+        <section class="section game-promo" style="text-align: center;">
+            <a href="game.html" class="glow-btn" style="display: inline-block; text-decoration: none;">¿Quieres jugar? ¡Haz clic aquí!</a>
+        </section>
+    </main>
+
+    <footer class="final-footer">
+        <p>Diana &hearts; Mi Eterno Amor</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
